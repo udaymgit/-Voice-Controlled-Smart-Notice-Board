@@ -40,26 +40,16 @@ This project was originally developed as a **college mini project** and has been
 
 ---
 
-## 📂 Project Structure
-
-```text
-Voice-Controlled-Smart-Notice-Board/
+Voice-Controlled-Smart-Notice-Board
 │
-├── README.mdE
-├── .gitignore
-│
-├── src/
-│   └── SmartNoticeBoardESP32.ino
-│
-├── images/
-│   ├── hardware-setup.jpg
-│   ├── arduino-ide.jpg
-│   ├── lcd-output.jpg
-│   └── circuit-diagram.png
-│
-└── docs/
-    └── Project-Overview.pdf
-```
+├── README.md
+├── src
+│   ├── SmartNoticeBoardESP32.ino
+│   └── images
+│       ├── circuit-diagram.png
+│       ├── hardware-setup.jpg
+│       ├── arduino-ide.jpg
+│       └── lcd-output.jpg
 
 ---
 
@@ -87,6 +77,9 @@ Voice-Controlled-Smart-Notice-Board/
 ## 📷 Project Images
 
 <img width="1536" height="1152" alt="image" src="https://github.com/user-attachments/assets/9b5eff32-218b-482f-9839-48c339fab721" />
+
+circuit-diagram.png
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f7f830ce-b673-4cef-b6e8-a17111d3970c" />
 
 
 ---
