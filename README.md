@@ -27,7 +27,6 @@ This project was originally developed as a **college mini project** and has been
 * HC-05 Bluetooth Module *(or ESP32 Bluetooth Serial)*
 * Breadboard
 * Jumper Wires
-* 10K Potentiometer
 * USB Cable
 
 ---
@@ -46,8 +45,7 @@ This project was originally developed as a **college mini project** and has been
 ```text
 Voice-Controlled-Smart-Notice-Board/
 │
-├── README.md
-├── LICENSE
+├── README.mdE
 ├── .gitignore
 │
 ├── src/
