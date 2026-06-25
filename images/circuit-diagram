@@ -1,0 +1,39 @@
+| LCD Pin  | Connect to ESP32                  |
+| -------- | --------------------------------- |
+| VSS      | GND                               |
+| VDD      | 5V                                |
+| V0       | Middle pin of 10K potentiometer   |
+| RS       | GPIO 14                           |
+| RW       | GND                               |
+| EN       | GPIO 27                           |
+| D4       | GPIO 26                           |
+| D5       | GPIO 25                           |
+| D6       | GPIO 33                           |
+| D7       | GPIO 32                           |
+| A (LED+) | 5V (through resistor if required) |
+| K (LED-) | GND                               |
+
+Bluetooth
+
+The ESP32 has built-in Bluetooth, so no HC-05 module is needed.
+
+# ESP32 NodeMCU Wiring
+
+| Component | ESP32 Pin |
+|-----------|-----------|
+| LCD RS | GPIO14 |
+| LCD EN | GPIO27 |
+| LCD D4 | GPIO26 |
+| LCD D5 | GPIO25 |
+| LCD D6 | GPIO33 |
+| LCD D7 | GPIO32 |
+| LCD VSS | GND |
+| LCD VDD | 5V |
+| LCD RW | GND |
+| LCD VO | Potentiometer |
+| LCD LED+ | 5V |
+| LCD LED- | GND |
+
+Bluetooth communication uses the ESP32's built-in Bluetooth Serial.
+
+
